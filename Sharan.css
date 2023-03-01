@@ -1,0 +1,55 @@
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: #44586c;
+    justify-content: space-between;
+}
+
+.logo{
+    color: white;
+    font-weight: 900;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+nav ul li a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 1px;
+}
+
+nav ul li a:hover{
+    color: #d26218;
+}
+
+.cnt{
+    background-color: #DC7633;
+    color: white;
+}
+
+.cnt:hover{
+    background-color: #D35400;
+    color: white;
+}
+
